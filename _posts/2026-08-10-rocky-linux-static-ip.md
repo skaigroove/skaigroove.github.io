@@ -17,6 +17,19 @@ cat /etc/rocky-release
 ifconfig
 ```
 
+랜선이 물리적으로 꽂혀 있는 인터페이스 확인 (UP 상태인 것이 연결된 인터페이스):
+
+```bash
+ip -br link
+```
+
+출력 예시:
+```
+lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP>
+ens192           UP             00:0c:29:xx:xx:xx <BROADCAST,MULTICAST,UP,LOWER_UP>
+ens224           DOWN           00:0c:29:xx:xx:xx <BROADCAST,MULTICAST>
+```
+
 ## 3. 버전별 설정 방법
 
 OS 버전마다 설정 파일의 위치와 형식이 다르다.
