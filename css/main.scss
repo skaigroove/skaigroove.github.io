@@ -33,6 +33,15 @@ code {
     background-color: #d8e7ff;
     color: #002b72;
 }
+pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    code {
+        white-space: pre;
+        word-break: normal;
+        word-wrap: normal;
+    }
+}
 
 // divs
 
@@ -139,6 +148,21 @@ code {
             margin-top: 5px;
         }
     }
+    .post-card {
+        .title {
+            max-width: 100%;
+            font-size: 22px;
+        }
+        .details {
+            float: none;
+            text-align: left;
+            margin-left: 0;
+            margin-top: 4px;
+        }
+        .subtitle {
+            max-width: 100%;
+        }
+    }
 }
 
 @media (max-width: 500px) {
@@ -230,7 +254,8 @@ code {
     img {
         text-align: center;
         margin: 10px 10px 10px 10px;
-        max-width: $max-width;
+        max-width: 100%;
+        height: auto;
     }
 
     .color-red {
