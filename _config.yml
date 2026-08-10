@@ -1,13 +1,13 @@
-title: Parchment
-author: pro-panda
-subtitle: The life of a frustrated engineer
+title: skaigroove's dev archive
+author: skaigroove
+subtitle: Linux · Network · DevOps 기록
 
 url: "https://skaigroove.github.io"
 baseurl: ""
 
 footer_only_homepage: true
-footer_url: "https://github.com/rhl-bthr"
-footer_text: "Theme by rhl-bthr"
+footer_url: "https://github.com/skaigroove"
+footer_text: "skaigroove @ GitHub"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -20,5 +20,5 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
-   absolute-link: "https://rahulbothra.com/cv.pdf"
+ - name: "Tags"
+   link: "tags"
